@@ -1,4 +1,4 @@
-# Project 2 - *Twitter Client*
+# Project 2 - *Twitter Client* - Part 2
 
 **Twitter Client** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
