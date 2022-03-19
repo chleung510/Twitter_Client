@@ -1,11 +1,14 @@
 package com.codepath.apps.restclienttemplate.models
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import org.json.JSONObject
 
-class User {
-    var name: String = ""
-    var screenName: String = ""
-    var publicImageUrl: String = ""
+// variables are defined as constructors and return type is Paracelable object.
+@Parcelize
+class User(var name: String = "",
+           var screenName: String = "",
+           var publicImageUrl: String = "") : Parcelable{
 
     companion object {
         // to build an user object based on json object
